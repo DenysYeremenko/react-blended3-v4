@@ -9,6 +9,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+td,
+th {
+  padding: 3px;
+  border: 1px solid black;
+}
+
+th {
+  color: white;
+  background-color: teal;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

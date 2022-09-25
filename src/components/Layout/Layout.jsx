@@ -1,10 +1,10 @@
 import { Outlet } from 'react-router-dom';
-import { Item } from './Layout.styled';
+import { Item, NavList } from './Layout.styled';
 
 export const Layout = () => {
   return (
     <>
-      <ul>
+      <NavList>
         <li>
           <Item to="/" end>
             Home
@@ -13,7 +13,7 @@ export const Layout = () => {
         <li>
           <Item to="/add">Contact</Item>
         </li>
-      </ul>
+      </NavList>
       <Outlet />
     </>
   );
